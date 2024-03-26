@@ -1,0 +1,119 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 0.1px solid rgb(221, 135, 135);
+}
+.box{
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+}
+.box h3{
+    font-weight: 300;
+    margin-top: 23px;
+}
+.box h1{
+    margin-top: -19px;
+    color: rgb(28, 242, 28);
+}
+.box2{
+    height: 100%;
+    width: 100%;
+    background-color: #D7D7D7;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.box2 h3{
+    font-weight: 300;
+    padding-bottom: 23px;
+    color: black;
+}
+.box2 h1{
+    margin-top: -19px;
+    color: rgb(28, 242, 28);
+}
+.box2 p{
+    color: black;
+}
+.box2 button{
+    background-color: rgb(28, 242, 28);
+    color: black;
+    margin-bottom: 34px;
+    font-weight: 500px;
+}
+.box2 .line1{
+    width: 200px;
+    margin-top: 23px;
+    border: 0.3px solid rgb(65, 63, 63);
+}
+.box2 .line2{
+    width: 200px;
+    border: 0.3px solid rgb(65, 63, 63);
+}
+.box3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: beige;
+    display: grid;
+    place-items: center;
+}
+.box3 a{
+    color: rgb(28, 242, 28);
+    /* display: block; */
+}
+
+.box3 h1{
+   font-size: 30px;
+   /* display: block; */
+   /* transition: all 0.5s ease-in-out; */
+   color: rgb(28, 242, 28);
+   margin-top: -19px;
+  
+}
+.box3>h3{
+    font-weight: 300;
+    margin-top: 22px;
+    display: block;
+    padding-bottom: 23px;
+    /* transition: all 0.5s ease-in-out; */
+
+}
+/* .box3 h1:hover{
+    transform: translateY(60px); 
+
+}
+.box3 h3:hover{
+    transform: translateY(60px); 
+    margin-bottom: 34px; 
+} */
+.box3 h4{
+    color: rgb(28, 242, 28);
+    font-size: 10px;
+}
+.button1{
+    background-color: rgb(28, 242, 28);
+    color: black;
+    padding: 2px;
+    margin-bottom: 12px;
+}
+.box3>.line3{
+    width: 185px;
+    margin-top: 90px;
+    border: 0.3px solid rgb(94, 85, 85);
+    /* padding-top: 100px; */
+}
+.box3 .line4{
+    width: 185px;
+    border: 0.3px solid rgb(94, 85, 85);
+}
+
